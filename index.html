@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Godeye</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/personal.css">
+  <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+</head>
+<body>
+<div id="top-bar">
+  <nav class="nav">
+    <img id="top-logo" src="./img/logo.png"/>
+    <!-- 手机端支持 -->
+    <div class="nav-mobile">
+      Click
+    </div>
+    <ul>
+      <li><a href="#section1">搜索引擎</a></li>
+      <li><a href="#section2">WEB扫描</a></li>
+      <li><a href="#section3">数据分析</a></li>
+      <li id="scanner"><a href="#section4">扫描视角</a></li>
+    </ul>
+  </nav>
+</div>
+<!-- section1 -->
+  <section id="section1">
+      <div id="sc1-div">
+        <img id="sc1-logo" src="./img/logo.png">
+        <input id="goSearch" type="text"/>
+      </div>
+  </section>
+<!-- section2 -->
+  <section id="section2">
+    <div id="sc2-div">
+        <h1 id="sc2-h1">Whatweb在线扫描</h1>
+        <div>
+            <div id="top">
+                <input type="text" id="input"  placeholder="target" value="" maxlength="20" class="testTxt black" type="text" name="fname" tabindex="1">
+            </div>
+            <div id="sc2-consolediv">
+                <div id="console"></div>
+            </div>
+        </div>
+    </div>
+  </section>
+<!-- section3 -->
+  <section id="section3">
+      <div id="sc3-div">
+        <div id="sc3-div-left">
+          <div class="item-div">
+              <img src="./img/server.png" class="item-img" id="server0">
+          </div>
+          <div class="item-div">
+              <img src="./img/php.png" class="item-img" id="server1">
+          </div>
+          <div class="item-div">
+              <img src="./img/os.png" class="item-img" id="server2">
+          </div>
+          <div class="item-div">
+              <img src="./img/js.png" class="item-img" id="server3">
+          </div>
+          <div class="item-div">
+              <img src="./img/beian.png" class="item-img" id="server4">
+          </div>
+        </div>
+        <div id="whatweb">5</div>
+      </div>
+  </section>
+<!-- section4 -->
+  <section id="section4">
+        <div id="main">1</div>
+  </section>
+
+<script src="js/jquery-1.11.0.min.js"></script>
+<script src="js/jquery.navScroll.js"></script>
+<script src="js/nav.js"></script>
+<script src="dep/echarts/build/echarts.js"></script>
+    <!-- 引入 ECharts-X 主文件 --> 
+<script src="dep/echarts-x/build/echarts-x.js"></script>
+<script type="text/javascript" src="./js/jquery-2.2.2.min.js"></script>
+<script type="text/javascript" src="./js/personal.js"></script>
+</body>
+</html>

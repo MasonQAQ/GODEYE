@@ -1,0 +1,53 @@
+{
+	"airportsFields": ["name", "city", "country", "longitude", "latitude"],
+	"airlineFields": ["name", "country"],
+	"airports": [
+		["Capital Intl", "Beijing", "China", 116.584556, 40.080111],
+		["Hongyuan Airfield", "Hongyuan", "China", 102.534785, 32.800428],
+		["Dongshan", "Hailar", "China", 119.825, 49.204997],
+		["Binhai", "Tianjin", "China", 117.346183, 39.124353],
+		["Wusu", "Taiyuan", "China", 112.628428, 37.746897],
+		["Baiyun Intl", "Guangzhou", "China", 113.298786, 23.392436],
+		["Huanghua", "Changcha", "China", 113.219633, 28.189158],
+		["Liangjiang", "Guilin", "China", 110.039197, 25.218106],
+		["Wuxu", "Nanning", "China", 108.172442, 22.608267],
+		["Baoan Intl", "Shenzhen", "China", 113.810664, 22.639258],
+		["Xinzheng", "Zhengzhou", "China", 113.840889, 34.519672],
+		["Tianhe", "Wuhan", "China", 114.2081, 30.783758],
+		["Pyongyang Intl", "Pyongyang", "Korea", 125.67015, 39.224061],
+		["Zhongchuan", "Lanzhou", "China", 103.620775, 36.515242],
+		["Xianyang", "Xi'an", "China", 108.751592, 34.447119],
+		["Chinggis Khaan Intl", "Ulan Bator", "Mongolia", 106.766639, 47.843056],
+		["Gasa", "Jinghonggasa", "China", 100.759611, 21.973914],
+		["Wujiaba", "Kunming", "China", 102.743536, 24.992364],
+		["Gaoqi", "Xiamen", "China", 118.127739, 24.544036],
+		["Changbei Intl", "Nanchang", "China", 115.9, 28.865],
+		["Changle", "Fuzhou", "China", 119.663272, 25.935064],
+		["Xiaoshan", "Hangzhou", "China", 120.434453, 30.229503],
+		["Lishe", "Ninbo", "China", 121.461906, 29.826683],
+		["Lukou", "Nanjing", "China", 118.862025, 31.742042],
+		["Luogang", "Hefei", "China", 117.298436, 31.780019],
+		["Liuting", "Qingdao", "China", 120.374436, 36.266108],
+		["Hongqiao Intl", "Shanghai", "China", 121.336319, 31.197875],
+		["Laishan", "Yantai", "China", 121.371667, 37.401667],
+		["Jiangbei", "Chongqing", "China", 106.641678, 29.719217],
+		["Longdongbao", "Guiyang", "China", 106.800703, 26.538522],
+		["Shuangliu", "Chengdu", "China", 103.947086, 30.578528],
+		["Qingshan", "Xichang", "China", 102.184361, 27.989083],
+		["Kashi", "Kashi", "China", 76.019956, 39.542922],
+		["Hotan", "Hotan", "China", 79.864933, 37.038522],
+		["Diwopu", "Urumqi", "China", 87.474244, 43.907106],
+		["Taiping", "Harbin", "China", 126.250328, 45.623403],
+		["Hohenems", "Hohenems", "Austria", 9.7, 47.385],
+		["Hailang", "Mudanjiang", "China", 129.568972, 44.524072],
+		["Zhoushuizi", "Dalian", "China", 121.5386, 38.965667],
+		["Pudong", "Shanghai", "China", 121.805214, 31.143378]
+	],
+	"airlines": [
+		["Air China", "China"]
+	],
+	"routes": [ 	
+		[0, 0, 7],
+		[0, 0, 5]
+	]
+}
